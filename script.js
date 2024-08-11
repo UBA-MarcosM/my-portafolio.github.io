@@ -15,6 +15,7 @@ function seleccionar(){
     document.getElementById("nav").classList = "";
     menuVisible = false;
 }
+
 //Funcion que aplica las animaciones de las habilidades
 function efectoHabilidades(){
     var skills = document.getElementById("skills");
@@ -32,7 +33,6 @@ function efectoHabilidades(){
         habilidades[8].classList.add("dedicacion");
     }
 }
-
 
 //detecto el scrolling para aplicar la animacion de la barra de habilidades
 window.onscroll = function(){
